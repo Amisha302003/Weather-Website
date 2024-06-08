@@ -28,8 +28,4 @@ btn.addEventListener('click', function()
             description.innerHTML=`Sky Conditions: <span>${descrip}<span>`
             wind.innerHTML=`Wind Speed: <span>${wndspeed} km/h<span>`
         })
-        
-
-        .catch(() =>  
-             alert("you entered wrong city name"));
-});
+})
